@@ -134,4 +134,9 @@ li a:hover {
         display: block;
         width: 100%;
     }
+
+    #burgerMenu {
+        width: 10%;
+        float: left;
+    }
 }
