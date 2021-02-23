@@ -119,10 +119,13 @@ li a:hover {
     }
 
     #burgerUl {
-        width: 300%;
+        width: 220px;
         display: none;
         cursor: default;
         padding: 15%;
+        transform: translateY(-4px);
+        position: relative;
+        z-index: 2;
     }
 
     .change #burgerUl{
@@ -146,6 +149,8 @@ li a:hover {
         color: white;
         padding-left: 5%;
         padding-right: 5%;
+        position: absolute;
+        z-index: 1;
     }
 
     p {
