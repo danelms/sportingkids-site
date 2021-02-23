@@ -4,13 +4,14 @@
     <title>Latest News</title>
     <link rel = "stylesheet" href = "sportingkids.css">
     <link rel="shortcut icon" href= "Images/mobileLogo.png">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
 </head>
 
 <html>
 
     <body>
 
-        <!Banner to be visible on desktop devices>
+        <! Banner to be visible on desktop devices>
         <div id = banner>
             <img id = desktopLogo src = "Images/logo.png"><img id = desktopBanner src = "Images/desktopBanner.png">
             
@@ -25,20 +26,36 @@
 
         <! Banner to be visible on mobile devices>
         <div id = mobileBanner>
+            
+            <div id = burgerMenu onclick = "onClickMenu()">
+                <img id = burgerMenuIcon src = "Images/burgerMenu.png">
 
-            <img id = burgerMenu src = "Images/burgerMenu.png"><img id = mobileBannerImg src = "Images/mobileBanner.png"><img id = mobileLogo src = "Images/mobileLogo.png">
+                <ul id = burgerUl>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "news.html">Latest News</a></li>
+                    <li><a href = "events.html">Upcoming Events</a></li>
+                    <li><a href = "volunteer.html">Become a Volunteer</a></li>
+                </ul>
+
+            </div>
+
+            <img id = mobileBannerImg src = "Images/mobileBanner.png">
+            <img id = mobileLogo src = "Images/mobileLogo.png">
 
         </div>
 
         <!Main page content>
         <div id = main>
 
-            <h1>Welcome!</h1>
+            <h1>Latest News</h1>
 
-            <p>Welcome to sportingkids.co.uk...</p>
+            <p></p>
 
         </div>
         
+        <script src = "sportingkids.js"></script>
+
     </body>
 
 </html>

@@ -4,12 +4,14 @@
     <title>Upcoming Events</title>
     <link rel = "stylesheet" href = "sportingkids.css">
     <link rel="shortcut icon" href= "Images/mobileLogo.png">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
 </head>
 
 <html>
 
     <body>
 
+        <! Banner to be visible on desktop devices>
         <div id = banner>
             <img id = desktopLogo src = "Images/logo.png"><img id = desktopBanner src = "Images/desktopBanner.png">
             
@@ -22,14 +24,47 @@
         
         </div>
 
-        <div id = main>
+        <! Banner to be visible on mobile devices>
+        <div id = mobileBanner>
+            
+            <div id = burgerMenu onclick = "onClickMenu()">
+                <img id = burgerMenuIcon src = "Images/burgerMenu.png">
 
-            <h1>Welcome!</h1>
+                <ul id = burgerUl>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "news.html">Latest News</a></li>
+                    <li><a href = "events.html">Upcoming Events</a></li>
+                    <li><a href = "volunteer.html">Become a Volunteer</a></li>
+                </ul>
 
-            <p>Welcome to sportingkids.co.uk...</p>
+            </div>
+
+            <img id = mobileBannerImg src = "Images/mobileBanner.png">
+            <img id = mobileLogo src = "Images/mobileLogo.png">
 
         </div>
+
+        <!Main page content>
+        <div id = main>
+
+            <h1>Upcoming Events</h1>
+
+            <h2>October 29th 2018</h2>
+
+            <p>Budget 2018: Funding boost for mental health</p>
+            <p>The Chancellor of the Exchequer, Phillip Hammond, has today given his Autumn Budget speech which he says is for the 'strivers, grafters, and the carers'. Ali Oliver, Chief Executive of the Youth Sport Trust, comments.</p>
+
+            <h2>December 25th 2018</h2>
+
+            <p>Charity offers guidance for schools on primary PE and sport premium</p>
+            <p>Training for teachers, more varied activities, and new equipment to get classes moving are helping to usher in a ‘once in a generation’ transformation of PE across primary schools in England.</p>
+
+            
+        </div>
         
+        <script src = "sportingkids.js"></script>
+
     </body>
 
 </html>
