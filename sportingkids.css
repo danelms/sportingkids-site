@@ -96,8 +96,7 @@ li a:hover {
     
     #mobileBanner {
         display: block;
-        width: 100%
-
+        width: 100%;
     } 
 
     #mobileBannerImg {
@@ -107,12 +106,33 @@ li a:hover {
 
     #mobileLogo {
         width: 12.5%;
-        align-self: right;
     }
 
     #burgerMenu {
         width: 12.5%;
         float: left;
+        cursor: pointer;
+    }
+
+    #burgerMenuIcon {
+        width: 100%;
+    }
+
+    #burgerUl {
+        width: 300%;
+        display: none;
+        cursor: default;
+        padding: 15%;
+    }
+
+    .change #burgerUl{
+        display: block;
+    }
+
+    #burgerUl a {
+        padding: 5%;
+        display: block;
+        font-weight: bold;
     }
 
     #imgFloatRight {

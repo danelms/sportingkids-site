@@ -27,10 +27,19 @@
         <! Banner to be visible on mobile devices>
         <div id = mobileBanner>
             
-            <div id = dropDown>
-                <img id = burgerMenu src = "Images/burgerMenu.png">
+            <div id = burgerMenu onclick = "onClickMenu()">
+                <img id = burgerMenuIcon src = "Images/burgerMenu.png">
+
+                <ul id = burgerUl>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "news.html">Latest News</a></li>
+                    <li><a href = "events.html">Upcoming Events</a></li>
+                    <li><a href = "volunteer.html">Become a Volunteer</a></li>
+                </ul>
+
             </div>
-            
+
             <img id = mobileBannerImg src = "Images/mobileBanner.png">
             <img id = mobileLogo src = "Images/mobileLogo.png">
 
@@ -48,7 +57,9 @@
             <p>On our website you can find out more about our organisation, stay up to date with our latest news, find information about our upcoming events or even becoming a volunteer!</p>
 
         </div>
-        
+
+        <script src = "sportingkids.js"></script>
+
     </body>
 
 </html>
