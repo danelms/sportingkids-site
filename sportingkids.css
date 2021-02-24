@@ -5,6 +5,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     font-size: 2vw;
 }
@@ -12,6 +16,12 @@ p {
 h1 {
     font-size: 2.5vw;
     margin-top: 0;
+}
+
+#h1News {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 3%;
 }
 
 h2 {
@@ -45,6 +55,12 @@ h2 {
     margin-left: 2%;
 }
 
+#imgFloatRight2 {
+    width: 40%;
+    float: right;
+    margin-left: 2%;
+}
+
 #main {
     background-color: white;
     width: 80%;
@@ -53,6 +69,14 @@ h2 {
     padding: 2%;
     overflow: hidden;
     margin-bottom: 3%;
+}
+
+#mainNews {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 3%;
+    padding: 1%;
 }
 
 ul > li > a {
@@ -162,16 +186,20 @@ li a:hover {
     }
 
     p {
-        font-size: 2.7vw;
+        font-size: 2.88vw;
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 4.1vw;
         text-align: center;
     }
 
     h2 {
         font-size: 3.2vw;
+    }
+
+    #h2News {
+        font-size: 2.5vw;
     }
 
     #mobileImgCentred {
@@ -186,6 +214,11 @@ li a:hover {
     #main {
         width: 50%;
         margin-left: 25%;
+    }
+
+    #mainNews {
+        width: 60%;
+        margin-left: 20%;
     }
 
     p {
