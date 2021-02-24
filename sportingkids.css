@@ -10,7 +10,7 @@ a {
 }
 
 #aWhite {
-    color: #fff;
+    color: blue;
 }
 
 p {
@@ -210,6 +210,10 @@ li a:hover {
     #mobileImgCentred {
         display: block;
         width: 100%;
+    }
+
+    #aWhite {
+        color: #fff;
     }
 
 }
